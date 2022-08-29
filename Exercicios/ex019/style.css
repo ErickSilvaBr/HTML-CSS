@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+*{
+    min-height: 100%;
+}
+
+
+body {
+    background-image: linear-gradient(to top, #0A6AF7, #02E8D9);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+h1#principal {
+    text-align: center;
+    background-color: #0AFF98;
+    color: black;
+
+}
+
+
+.basico {
+    color: #008000;
+    
+    
+}
+
+.intermediario {
+    color: #ff0000;
+
+}
+
+.avancado {
+    color: #ffff00;
+
+}

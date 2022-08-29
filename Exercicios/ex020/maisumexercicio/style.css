@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+}
+
+
+#titulo {
+    color: blueviolet;
+    font-weight: 400;
+    height: 15px;
+    display: inline;
+    
+    
+    
+    
+    
+}
+
+#titulo2 {
+    color: blueviolet;
+    font-weight: bold;
+    
+    
+    
+}
+
+#titulo3 {
+    color:blueviolet;
+    
+    
+}
+
+p {
+    text-align: justify;
+    font-weight: 500;
+}
+
+#menu-h{
+    text-align: right;
+    list-style-type: none;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    
+}
+
+#menu-h > li {
+    display: inline;
+
+}
+
+#menu-h > li > a {
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    
+}
+
+.ahref:hover {
+    color: black;
+}

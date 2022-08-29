@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+p {
+    /*propriedade shorthand*/
+    font: italic normal 2em 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1, h2 {
+    font: bold 3em 'Arial';
+}
+

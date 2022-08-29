@@ -1,0 +1,256 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf) format(otf);
+}
+
+
+
+/* HEADER */
+
+body {
+    margin: 0px;
+    background-color: #EBE5C5;
+}
+
+
+
+header {
+    background-image: linear-gradient(to bottom, #2FA866, #063D1E);
+    text-align: center; 
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.502);
+    padding-bottom: 5px;
+}
+
+header > h1{
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-weight: lighter;
+    padding-top: 20px;
+    margin: 0;
+}
+
+header > .header {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 30px;
+}
+
+/* NAV */
+ 
+nav {
+    text-align: left;
+    padding-bottom: 5px;
+    
+}
+
+nav > a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+nav > a:hover {
+    background-color: rgba(255, 255, 255, 0.61);
+    color: #063D1E;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 4px;
+    margin: 0px;
+    padding-bottom: 9px;
+    
+}
+
+
+/* MAIN */
+
+main {
+    height: auto;
+    width: auto;
+    background-color: white;
+    margin: auto 150px auto 150px;
+    padding: 10px;
+    box-shadow: 3px 11px 9px rgba(0, 0, 0, 0.267);
+}
+
+main > h1 {
+    font-family: idroid;
+    color: #063D1E;
+    font-weight: lighter;
+}
+
+main > p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+/* SECTION */
+section > aside > h2 {
+    font-family: idroid;
+    background-image: linear-gradient(to right, #83E1AD, white);
+    color: #063d1ec2;
+    font-weight: lighter;
+
+}
+
+p > .links {
+    color: #063D1E;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #70d49d;
+    padding: 3px;
+}
+
+p > .links::after {
+    content: ' 🔗';
+}
+
+p > .links:hover {
+    text-decoration: underline;
+    color: #063d1ed3;
+}
+
+/* ARTICLE */
+
+article > img {
+    margin: auto;
+}
+
+hr {
+    background-color: #2FA866;
+    height: 20px;
+}
+
+/* FOOTER */
+
+footer {
+    height: auto;
+    width: auto;
+    background-color: white;
+    margin: auto 150px auto 150px;
+    padding-top: 1px;
+    box-shadow: 3px 11px 9px rgba(0, 0, 0, 0.267);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+
+footer >aside > h1 {
+    background-color: #063D1E;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    border-radius: 5px 5px;
+
+}
+
+footer > aside   {
+    background-color: #83E1AD;
+
+    padding-top: 1px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    
+    
+    
+
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+
+    border-radius: 10px;
+
+}
+
+ul  > li::before {
+    content: '✔️ ';
+}
+
+ul > li {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+#fim {
+    margin-top: 10px;
+    padding-bottom: 30px;
+    text-indent: 100px;
+}
+
+#fim > a {
+    color: #1a7e47;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: text;
+}
+
+p > .cursor {
+    color: #063D1E;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: text;
+}
+
+#link > a {
+    color: #063D1E;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#link > a::after {
+    content: ' 🔗';
+}
+
+#link > a:hover {
+    text-decoration: underline;
+    color: #063d1ed2;
+}
+
+
+#informacoes {
+    text-align: center;
+    background-color: #063D1E;
+    color: white;
+    margin: 0;
+    font-family: 'Aboreto', cursive;
+    font-size: 15px;
+    padding-top: 7px; 
+    padding-bottom: 7px;
+}
+
+.paragrafo {
+    text-indent: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+}
+
+p > #meunome {
+    color: white;
+    text-decoration: none;
+}
+
+p > #meunome:hover {
+    text-decoration: underline;
+    color: #a7e6c3;
+}
+
+.agradecimento {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.destaque {
+    font-weight: bold;
+    color: #063D1E;
+    text-decoration: none;
+}
+
+p > #google {
+    font-weight: bold;
+    color: #063D1E;
+    text-decoration: none;
+}
