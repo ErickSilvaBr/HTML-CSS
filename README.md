@@ -3,4 +3,4 @@
 
 <a href="https://ericksilvabr.github.io/HTML-CSS/Exercicios/desafios/desafio010BIGDESAFIO/"> Executar o desafio 010</a>
 
-<a href="https://ericksilvabr.github.io/HTML-CSS/Exercicios/desafios/desafio010VIDEOAULA/android/"> Executar o desafio do guanabara</a>
+<a href="https://ericksilvabr.github.io/HTML-CSS/Exercicios/desafios/desafio010VIDEOAULA"> Executar o desafio do guanabara</a>
