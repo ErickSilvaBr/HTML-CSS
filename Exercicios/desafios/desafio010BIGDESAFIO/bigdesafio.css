@@ -74,7 +74,8 @@ main {
     margin: auto 150px auto 150px;
     padding: 10px;
     box-shadow: 3px 11px 9px rgba(0, 0, 0, 0.267);
-}
+    min-width: 600px;
+    max-width: 950px}
 
 main > h1 {
     font-family: idroid;
