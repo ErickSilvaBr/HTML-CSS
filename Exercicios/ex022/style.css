@@ -66,6 +66,7 @@ main {
 #retangulo {
     background-image: url('imagens/wallpaper002.jpg');
     background-position: left center;
+    background-size: cover;
     height: 200px;
     margin: 15px;
     border: 2px solid black;
