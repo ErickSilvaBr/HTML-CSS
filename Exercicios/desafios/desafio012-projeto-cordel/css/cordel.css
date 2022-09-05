@@ -9,6 +9,7 @@
 }
 
 body {
+    background-image: url(imagens/background001.jpg);
 
     
 }
@@ -35,6 +36,7 @@ header p {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-bottom: 20px;
+    font-weight: lighter;
 }
 
 header a {
@@ -65,5 +67,25 @@ section p {
 
 }
 
+footer {
+    background-color: black;
+
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+}
 
 
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
