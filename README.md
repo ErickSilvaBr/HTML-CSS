@@ -3,4 +3,3 @@
 
 <a href="https://ericksilvabr.github.io/HTML-CSS/Exercicios/desafios/desafio010BIGDESAFIO/"> Executar o desafio 010</a>
 
-<a href="https://ericksilvabr.github.io/HTML-CSS/Exercicios/desafios/desafio012-projeto-cordel"> Projeto Cordel</a>
