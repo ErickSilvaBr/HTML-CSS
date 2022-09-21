@@ -1,0 +1,50 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+:root {
+    --cor1: #8C4B20;
+    --cor2: #4D2912;
+    --cor3: #D97532;
+    --cor4: #CC6D2E;
+    --cor5: #B36029;
+
+    --fonte1: 'Raleway', sans-serif;
+    --fonte2: 'Raleway', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor4));
+
+}
+
+main {
+    height: auto;
+    width: 600px;
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 4px 2px 7px rgba(0, 0, 0, 0.521);
+}
+
+h1 {
+    text-align: center;
+    font-family: var(--fonte1);
+    color: var(--cor4);
+    padding: 10px;
+}
+
+main .titulo {
+    font-family: var(--fonte1);
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+p {
+    font-family: var(--fonte2);
+    text-align: justify;
+    color: black;
+    line-height: 1.5em;
+    font-weight: 300;
+}
