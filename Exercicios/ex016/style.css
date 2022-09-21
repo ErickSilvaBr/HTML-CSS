@@ -1,26 +1,43 @@
 @charset "UTF-8";
+
 /*
+representação por nomes
+h2 {
+    background-color: blue;
+    color: white;
+}
+
 representação com códigos hexadecimais
 h2 {
     background-color: #0000ff;
     color: #ffffff;
 }
-representação em RGB(Red, Green, Blue
-h2 {
 
+representação em RGB(Red, Green, Blue)
+h2 {
     background-color: rgb(0, 0, 255);
 }
+
  representação por HSL(Hue[Matiz], Saturation[Saturação], lightness[Luminosidade])
 h2 {
     background-color: hsl(240, 100%, 50%);
 }
 */
 
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
 h2 {
     color: rgb(35, 180, 59);
     background-color: rgb(0, 0, 0);
+
 }
 
 p {
-    color: rgb(73, 73, 73);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: black;
+
 }

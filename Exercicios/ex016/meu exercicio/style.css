@@ -7,6 +7,7 @@ h1 {
 ul {
     color: white;
     text-align: center;
+    
      
 }
 p {
@@ -25,6 +26,6 @@ h2 {
 }
 
 body {
-    background-color: rgb(62, 62, 165);
+    background-color: rgba(0, 0, 0, 0.781);
 
 }
