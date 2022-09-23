@@ -1,9 +1,11 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Nabla&family=Nanum+Gothic&display=swap');
 
 
 :root {
     --fonte1: 'Nabla', cursive;
+    --fonte-nav: 'Chakra Petch', sans-serif;
 }
 
 
@@ -13,6 +15,36 @@ h2, p {
 
 body {
     background-color: rgba(0, 0, 0, 0.801);
+}
+
+#titulo {
+    text-align: left;
+    font-size: 2.3em;
+    margin: 0px;
+    padding-left: 1vw;
+}
+
+nav {
+    padding-bottom: 10px;
+    text-align: right;
+    font-size: 1.1em;
+    border-radius: 10px;
+    border-top: 1px solid rgba(0, 0, 0, 0.877);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.877);
+
+}
+
+nav a {
+    padding: 10px;
+    font-family: var(--fonte-nav);
+    font-weight: bold;
+
+
+}
+
+nav a:hover {
+    color: orange;
+    transition-duration: .2s;
 }
 
 h1 {
@@ -70,4 +102,6 @@ a {
 
 a:hover {
     text-decoration: underline;
+    color: orange;
+    transition-duration: .2s;
 }
