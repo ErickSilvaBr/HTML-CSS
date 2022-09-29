@@ -4,6 +4,9 @@
     min-height: 100%;
 }
 
+p {
+    text-align: justify;
+}
 
 body {
     background-image: linear-gradient(to top, #0A6AF7, #02E8D9);
