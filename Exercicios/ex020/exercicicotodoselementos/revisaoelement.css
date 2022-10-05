@@ -1,0 +1,57 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@600&family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@600&family=Silkscreen&family=Ubuntu&display=swap');
+
+:root {
+    --font-principal: 'Gemunu Libre', sans-serif;
+    --font-generica: 'Silkscreen', cursive;
+    --font-texto: 'Ubuntu', sans-serif;
+}
+
+body {
+    background-color: #5F15DB;
+    
+}
+
+main h1 {
+    font-family: var(--font-principal);
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    margin-top: 1.7em;
+}
+
+section #titulo {
+    font-size: 2em;
+    background-color: black;
+    width: 20%;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    color: white;
+    font-family: var(--font-generica);
+    margin-bottom: 3px;
+    margin-top: 3em;
+}
+
+section h2 {
+    font-family: var(--font-generica);
+    color: white;
+    font-weight: normal;
+    width: 250px;
+    padding-left: 60px;
+    font-size: 3em;
+    margin: 0px;
+}
+
+.texto {
+    color: white;
+    font-family: var(--font-texto);
+    width: 400px;
+    text-align: justify;
+    font-size: 1.2em;
+    line-height: 4.5vh;
+    margin: auto;
+    padding-top: 100px;
+}
