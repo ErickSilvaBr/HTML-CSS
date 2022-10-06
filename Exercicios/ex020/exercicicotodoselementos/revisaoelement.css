@@ -55,3 +55,9 @@ section h2 {
     margin: auto;
     padding-top: 100px;
 }
+
+span {
+    font-style: italic;
+    font-weight: bold;
+    color: #000000;
+}
