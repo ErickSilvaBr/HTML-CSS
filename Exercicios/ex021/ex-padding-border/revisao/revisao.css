@@ -29,6 +29,10 @@ body {
     color: #0c2e2a;
 }
 
+#titulo h1::after {
+    content: ' 🤯';
+}
+
 #navegation {
     text-align: right;
     margin-bottom: 3em ;
@@ -36,6 +40,10 @@ body {
     padding-bottom: 2em;
     padding-right: 10px;
 
+}
+
+#navegation::before {
+    content: '👉';
 }
 
 
@@ -61,6 +69,10 @@ main h2 {
 
 }
 
+main h2::after {
+    content: ' ✨';
+}
+
 p {
     font-family: var(--fonte-paragrafo);
     text-align: justify;
@@ -72,6 +84,7 @@ strong {
     color: var(--cor1);
     font-size: 1em;
     font-style: italic;
+    text-decoration: underline;
     
 }
 
