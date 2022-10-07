@@ -1,0 +1,88 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Magra:wght@400;700&display=swap');
+
+:root {
+    --cor1: #12130F;
+    --cor2: #5B9279;
+    --cor3: #8FCB9B;
+    --cor4: #EAE6E5;
+    --cor5: #8F8073;
+
+    --font-display: 'Bungee Shade', cursive;
+    --font-nav: 'Aboreto', cursive;
+    --font-paragrafo: 'Magra', sans-serif;
+
+}
+
+main {
+    background-color: var(--cor1);
+    border-radius: 0px 10px 10px 10px;
+    margin: 0px 3px 3px 3px;
+    padding: 5px ;
+}
+
+h2 {
+    color: var(--cor3);
+    font-family: var(--font-paragrafo);
+    padding: 0px 10px 0px 10px;
+    text-decoration: underline;
+    
+}
+
+p {
+    color: var(--cor4);
+    font-family: var(--font-paragrafo);
+    line-height: 3.2vh;
+    padding: 0px 10px 0px 10px;
+    text-align: justify;
+    font-weight: normal;
+}
+
+body {
+    background-color: rgb(54, 52, 52);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px;
+    background-image: url('https://images5.alphacoders.com/635/635942.jpg');
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: var(--cor2);
+    box-shadow: 0px 2px 14px rgba(0, 0, 0, 0.404);
+
+}
+
+header nav {
+    text-align: right;
+    padding: 20px 20px 0px 20px;
+}
+
+header nav a{
+    font-family: var(--font-nav);
+    color: black;
+    text-decoration: none;
+    margin: 18px;
+    font-weight: bold;
+
+}
+
+header nav a:hover {
+    text-decoration: underline;
+    color: var(--cor4);
+    text-shadow: 0px 1px 2px var(--cor2);
+    transition-duration: .3s;
+    
+}
+
+header h1 {
+    font-family: var(--font-display);
+    padding: 0px 0px 0px 20px;
+    margin: 0px;
+}
+
+
+
+
+
