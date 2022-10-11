@@ -83,7 +83,8 @@ main {
     margin: auto;
     background-color: white;
     padding: 20px;
-    box-shadow: 3px 0px 10px rgba(0, 0, 0, 0.212);
+    box-shadow: 3px 5px 10px 5px rgba(0, 0, 0, 0.315);
+    border-radius: 0px 0px 10px 10px;
 }
 
 article h1, h2 {
@@ -143,14 +144,17 @@ article a::after {
 #video {
     background-color: var(--cor5);
     height: 80vh;
+    margin: 0em -20px;
 }
 
 aside {
     font-family: var(--font-paragrafo);
     background-color: var(--cor2);
-    margin: 20px;
+    margin: 2.2em 5px 0em 5px ;
     padding: 0px 10px 10px 10px;
     border-radius: 10px;
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.212);
+
 }
 
 aside h1 {
@@ -169,14 +173,45 @@ aside p {
     margin: 10px;
 }
 
-
-
 aside ul {
     columns: 2;
+    list-style-type: none;
+    margin-left: -2.5em;
+}
+
+aside li::before {
+    content: '✔️ ';
 }
 
 
+footer {
+    font-family: var(--font-paragrafo);
+    background-color: var(--cor5);
+    text-align: center;
+    margin-top: 1.5em;
 
+}
+
+footer p {
+    color: white;
+    padding: 5px;
+    font-size: 14px;
+}
+
+span {
+    font-weight: bold;
+
+}
+
+span:hover {
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.829);
+    cursor: pointer;
+}
+
+#img1, #img2, #img3 {
+    text-align: center;
+}
 
 
 
