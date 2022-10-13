@@ -78,13 +78,14 @@ nav a:hover {
 }
 
 main {
-    width: 1000px;
     height: auto;
     margin: auto;
     background-color: white;
     padding: 20px;
     box-shadow: 3px 5px 10px 5px rgba(0, 0, 0, 0.103);
     border-radius: 0px 0px 10px 10px;
+    min-width: 320px;
+    max-width: 800px;
 }
 
 article h1, h2 {
@@ -211,6 +212,7 @@ span:hover {
 
 #img1, #img2, #img3 {
     text-align: center;
+    width: 100%;
 }
 
 
