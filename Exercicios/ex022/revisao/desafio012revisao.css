@@ -10,7 +10,7 @@
 :root {
     --font-header: 'Passion One', cursive; 
     --font-paragrafo: 'Sriracha', cursive;
-    --font-duarte: Verdana;
+    --font-duarte: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
@@ -101,6 +101,7 @@ main #img2 {
 
 section p  {
     text-shadow: 2px 4px 1px rgba(0, 0, 0, 0.644);
+    display: inline-block;
 }
 
 footer {
@@ -119,5 +120,6 @@ footer p {
 footer a {
     color: white;
 }
+
 
 
