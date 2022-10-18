@@ -67,8 +67,10 @@ main p {
 
 main #img1 {
     background-image: url(./imagens/background001.jpg);
-    background-size: cover;
+    background-size: cover ;
     background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
     
 }
 
@@ -83,6 +85,8 @@ main #img2 {
     background-image: url('./imagens/background002.jpg');
     background-size: cover;
     background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
 
 }
 
