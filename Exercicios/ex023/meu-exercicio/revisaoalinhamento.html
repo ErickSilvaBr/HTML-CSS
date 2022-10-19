@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamentos</title>
+    <style>
+        main h1 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+        }
+
+        table {
+            height: 25em;
+            width: 30em;
+            border-collapse: collapse;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+
+            transform: translate(-50%, -50%);
+            
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+            vertical-align: bottom;
+        }
+
+        .linha {
+            background-color: lightgray;
+        }
+
+        .numero {
+            text-align: right;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Alinhamentos verticais</h1>
+        <table>
+            <tr  class="linha">
+                <td>A1</td>
+                <td>B1</td>
+                <td>C1</td>
+            </tr>
+            <tr>
+                <td>A2</td>
+                <td>B2</td>
+                <td class="numero">300</td>
+
+            </tr>
+            <tr class="linha">
+                <td>A3</td>
+                <td>B3</td>
+                <td>C3</td>
+
+            </tr>
+            <tr>
+                <td>A4</td>
+                <td>B4</td>
+                <td>C4</td>
+
+            </tr>
+            <tr class="linha">
+                <td>A5</td>
+                <td>B5</td>
+                <td class="numero">400</td>
+
+            </tr>
+            <tr>
+                <td>A6</td>
+                <td>B6</td>
+                <td>C6</td>
+
+            </tr>
+        </table>
+    </main>
+    
+</body>
+</html>
