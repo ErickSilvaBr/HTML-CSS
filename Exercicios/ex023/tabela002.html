@@ -12,6 +12,7 @@
 
         main h1 {
             text-align: center;
+            margin: 2em;
         }
 
         table {
@@ -32,6 +33,15 @@
             border: 1px solid black;
             padding: .7em;
             font-size: 1.1em;
+        }
+
+        caption {
+            color:black;
+            font-size: 1.7em;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            padding: .5em ;
+            text-decoration: underline;
         }
 
         .num {
@@ -58,10 +68,11 @@
                     TR, TD ,TH
         -->
         <table>
+            <caption>População por estado.</caption>
             <thead>
                 <tr>
-                    <th>Estado</th>
-                    <th>População</th>
+                    <th scope="col">Estado</th>
+                    <th scope="col">População</th>
                 </tr>
             </thead>
             <tbody>
@@ -179,7 +190,7 @@
             </tbody>
             <tfoot>
                 <tr>
-                    <th>Total de Habitantes</td>
+                    <th scope="row">Total de Habitantes</td>
                     <td class="num"><strong>212 600 000</strong></td>
                     
                 </tr>
