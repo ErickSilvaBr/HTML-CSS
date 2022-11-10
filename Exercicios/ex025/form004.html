@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="estilos/form004.css">
+</head>
+<body>
+    <main>
+        <form action="cadastro.php" method="get" autocomplete="on">
+            <fieldset>
+                <legend>Dados pessoais</legend>
+                <div class="nome">
+                    <label for="nomeid">Nome:<br></label>
+                    <input type="text" name="nome" id="nomeid" required placeholder="João do Corre" autocomplete="name" >
+                </div>
+
+                <div class="email">
+                    <label for="emailid">E-mail:<br></label>
+                    <input type="email" name="email" id="emailid" placeholder="contato@gmail.com" required autocomplete="email">
+                </div>
+
+                <div class="tel">
+                    <label for="telid">Telefone:<br></label>
+                    <input type="tel" name="tel" id="telid" required placeholder="(xx) xxxx-xxxx" autocomplete="tel" pattern="^\(\d{2}\)\d{4,5}-\d{4}$">
+                </div>
+            </fieldset>
+
+                <div class="btn">
+                    <input type="submit" value="Entrar">
+                    <input type="reset" value="Limpar tudo">
+                </div>
+
+
+        </form>
+    </main>
+    
+</body>
+</html>

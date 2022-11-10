@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="estilos/form005.css">
+</head>
+<body>
+    <main>
+        <h1>Exemplo de Formulário</h1>
+        <form action="cadastro.php" method="get" autocomplete="on">
+
+            <fieldset class="dados">
+                <legend>Dados Pessoais</legend>
+                <p><strong>Preencha os campos</strong></p>
+
+                <div class="nome">
+                    <label for="idnome">Nome<br></label>
+                    <input type="text" name="nome" id="idnome" required autocomplete="name" placeholder="João do Corre" size="94">
+                </div>
+
+                <div class="email">
+                    <label for="idmail">E-mail<br></label>
+                    <input type="email" name="email" id="idmail" required autocomplete="email" placeholder="contato@gmail.com" size="94">
+                </div>
+
+                <div class="senha">
+                    <label for="idsenha">Senha<br></label>
+                    <input type="password" name="senha" id="idsenha" required autocomplete="new-password" placeholder="12345678" minlength="8" size="94">
+                </div>
+            </fieldset>
+
+            <fieldset class="sexo">
+                <legend>Sexo</legend>
+                <p><strong>Qual é o seu sexo?</strong></p>
+
+                <div class="masc">
+                    <input type="radio" name="sexo" id="idmas" value="M" required>
+                    <label for="idmas">Masculino</label>
+                </div>
+
+                <div class="fem">
+                    <input type="radio" name="sexo" id="idfem" value="F" required>
+                    <label for="idfem">Feminino</label>
+                </div>
+            </fieldset>
+
+            <fieldset class="esportes">
+                <legend>Esportes favoritos</legend>
+                <p><strong>Quais são seus esportes favoritos?</strong></p>
+
+                <div class="basq">
+                    <input type="checkbox" name="basq" id="idbasq">
+                    <label for="idbasq">Basquete</label>
+                </div>
+
+                
+                <div class="fut">
+                    <input type="checkbox" name="fut" id="futid">
+                    <label for="futid">Futebol</label>
+                </div>
+
+                <div class="nat">
+                    <input type="checkbox" name="nat" id="idnat" >
+                    <label for="idnat">Natação</label>
+                </div>
+
+                <div class="ten">
+                    <input type="checkbox" name="ten" id="idten">
+                    <label for="idten">Tênis</label>
+                </div>
+            </fieldset>
+
+            <div class="btn">
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar tudo">
+            </div>
+
+        </form>
+    </main>
+    
+</body>
+</html>
