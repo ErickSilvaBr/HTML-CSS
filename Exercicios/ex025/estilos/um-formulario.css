@@ -12,6 +12,7 @@ body {
     background-image: url('https://img.freepik.com/vetores-gratis/fundo-aquarela-com-detalhes-dourados-luxuosos_79603-1191.jpg?w=2000');
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 strong {
