@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="estilos/form007.css">
+</head>
+<body>
+    <main>
+        <form action="cadastro.php" method="get">
+
+            <div class="estados">
+                <label for="estado-i">Estado:</label>
+                <select name="estado" id="estado-i">
+                    <option value="" selected>Escolha um estado</option>
+
+                    <optgroup label="Sudeste">
+                        <option value="">Minas Gerais</option>
+                        <option value="sp">São Paulo</option>
+                        <option value="es">Espírito Santo</option>
+                        <option value="rj">Rio de Janeiro</option>
+                    </optgroup>
+
+                    <optgroup label="Nordeste">
+                        <option value="MA">Maranhão</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                    </optgroup>
+                </select>
+            </div>
+
+            <div class="profissao">
+                <label for="profissao-i">Profissão:</label>
+                <input type="text" name="profissao" id="profissao-i" list="prof" size="25">
+                <datalist id="prof">
+                    <option value="Contabilista"></option>
+                    <option value="Desenvolvedor Front-End"></option>
+                    <option value="Desenvolvedor Back-End"></option>
+                    <option value="Desenvolvedor FullStack"></option>
+                    <option value="Programador"></option>
+                </datalist>
+            </div>
+
+            <div class="mensagem">
+                <label for="imsg">Mensagem:</label><br>
+                <textarea name="mensagem" id="imsg" cols="30" rows="10"></textarea>
+            </div>
+
+            <div class="btn">
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar tudo">
+            </div>
+
+
+
+
+        </form>
+    </main>
+    
+</body>
+</html>
