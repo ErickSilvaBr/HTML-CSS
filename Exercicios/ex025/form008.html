@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div {
+            margin: 1rem;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <form action="cadastro.php" method="get">
+
+            <div class="num">
+                <label for="num1">Número 1(max: 50):</label>
+                <input type="number" name="numero" id="num1" min="0" max="50" required oninput="isoma.innerHTML = Number(num1.value)+ Number(num2.value)">
+                
+                
+            </div>
+
+            <div class="num2">
+                <label for="num2">Número 2(max: 50):</label>
+                <input type="number" name="numero2" id="num2" min="0" max="50" required oninput="isoma.innerHTML = Number(num.value)+ Number(num2.value)">
+            </div>
+
+            <div class="soma">
+                <label for="isoma">A soma entre esses dois números é:</label>
+                <output name="soma" id="isoma">0</output>
+            </div>
+
+            <div class="btn">
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar tudo">
+            </div>
+
+
+        </form>
+    </main>
+    
+</body>
+</html>
