@@ -15,5 +15,11 @@ nav {
 
 article::after {
     content: 'Esse impressão foi printada no site do Erick Silva';
+    font-weight: bolder;
+}
+
+p {
+    line-height: 1.6rem;
+    text-align: justify;
 }
 
