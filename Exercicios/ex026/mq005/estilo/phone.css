@@ -6,6 +6,7 @@
     padding: 0;
     font-family: 'Raleway', sans-serif;
     list-style-type: none;
+    box-sizing: border-box;
 }
 
 body {
@@ -63,6 +64,8 @@ main {
     background-color: #ffffff;
     border-radius: 10px;
     margin-top: 1rem;
+    padding-bottom: 60rem;
+
 }
 
 main p {
