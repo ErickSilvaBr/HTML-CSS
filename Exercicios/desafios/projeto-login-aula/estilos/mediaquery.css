@@ -2,7 +2,7 @@
 
 /* Tablet */
 @media screen and (min-width: 768px) and (max-width: 992px) {
-    
+
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
@@ -35,14 +35,22 @@
     }
 
     section .imagem {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     section .formulario {
-        float: right;
+        float: left;
         width: 50%;
+    }
+
+    .formulario > h1 {
+        font-size: 2rem;
+    }
+
+    .formulario > p {
+        font-size: 1.2rem;
     }
     
 }
