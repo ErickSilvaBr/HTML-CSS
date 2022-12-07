@@ -34,12 +34,14 @@
     nav ul li a {
         background-color: transparent;
         text-decoration: underline;
+
     }
 
     nav ul li a:hover {
         background-color: transparent;
         text-decoration: none;
         transition: .3s;
+
     }
  
 }
