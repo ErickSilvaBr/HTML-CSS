@@ -8,6 +8,8 @@
     }
     section {
         width: 80vw;
+        height: 280px;
+
 
     }
 
@@ -31,7 +33,8 @@
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
     section {
-        width: 990px;
+        width: 950px;
+        width: 350px;
     }
 
     section .imagem {
@@ -51,6 +54,8 @@
 
     .formulario > p {
         font-size: 1.2rem;
+        margin: 20px 0px;
     }
+
     
 }
