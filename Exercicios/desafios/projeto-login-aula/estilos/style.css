@@ -78,6 +78,15 @@ section .formulario {
 
 }
 
+.campo > span {
+    color: #fff;
+    background-color: black;
+    font-size: 2rem;
+    width: 40px;
+    padding: 5px;
+
+}
+
 
 
 form input[type=submit] {
